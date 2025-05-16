@@ -19,7 +19,7 @@ function Navbar({setQuery}) {
 
             <>
             <Link to='/login' className='bg-blue-500 px-4  py-2 rounded mr-4'>Login</Link>
-            <Link to='/signup' className='bg-green-500 px-4  py-2 rounded mr-4'>Signup</Link>
+            <Link to='/signup' className='bg-green-500 px-4  py-2 rounded mr-4'>Signup Button</Link>
             </>
 
           ):(
