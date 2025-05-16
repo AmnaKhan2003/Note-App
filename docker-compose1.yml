@@ -1,0 +1,11 @@
+services:
+  frontend:
+    container_name: noteapp-frontend-build
+    build:
+      context: ./frontend
+    ports:
+      - "5001:80"
+    volumes:
+      - frontend_build:/usr/share/nginx/html
+volumes:
+  frontend_build:
